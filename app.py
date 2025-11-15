@@ -5,9 +5,9 @@ import numpy as np
 
 # --- Load Model and Scalers 
 
-model = joblib.load('Models Notebooks/knn_final_model.joblib')
-feature_scaler = joblib.load('Models Notebooks/feature_scaler.joblib')
-target_scaler = joblib.load('Models Notebooks/target_scaler.joblib')
+model = joblib.load('knn_final_model.joblib')
+feature_scaler = joblib.load('feature_scaler.joblib')
+target_scaler = joblib.load('target_scaler.joblib')
 
 
 # --- Feature Engineering Function ---
